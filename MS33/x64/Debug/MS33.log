@@ -1,0 +1,3 @@
+﻿  clinic.c
+C:\Users\DracoSun\Desktop\MS33\clinic.c(918,12): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  MS33.vcxproj -> C:\Users\DracoSun\Desktop\MS33\x64\Debug\MS33.exe

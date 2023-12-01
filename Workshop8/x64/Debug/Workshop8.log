@@ -1,0 +1,6 @@
+﻿  w8p2.c
+C:\Users\DracoSun\Desktop\Workshop8\w8p2.c(121,31): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\DracoSun\Desktop\Workshop8\w8p2.c(180,54): warning C4133: 'function': incompatible types - from 'double *' to 'int *'
+C:\Users\DracoSun\Desktop\Workshop8\w8p2.c(206,52): warning C4028: formal parameter 1 different from declaration
+C:\Users\DracoSun\Desktop\Workshop8\w8p2.c(250,27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Workshop8.vcxproj -> C:\Users\DracoSun\Desktop\Workshop8\x64\Debug\Workshop8.exe

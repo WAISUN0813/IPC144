@@ -1,0 +1,21 @@
+1.void sort(struct Appointment appoints[], int max)
+The sort function appears to be sorting an array of Appointment structures based on a calculated time.min value. The revised code uses constant variables to store the number of minutes in a year, month, day, and hour, instead of calculating them inline in the code. This makes the code more readable and easier to maintain. The constant variables MINUTES_PER_YEAR, MINUTES_PER_MONTH, MINUTES_PER_DAY, and MINUTES_PER_HOUR are calculated based on the original calculations in the code, but are now assigned to variables for better readability. These variables are then used in the calculations for appoints[i].time.min and appoints[i].time.min in the loop. 
+
+int slot(struct Appointment* appointment, int maxAppointments)
+The slot method iterates over an array of Appointment structures using a do-while loop to identify the first occurrence where patientNumber is less than 1. After the loop, the function returns the value of I which denotes the number of iterations executed.
+
+int check(int patientNumber, struct Date date, struct Appointment* appointment, int maxAppointments) 
+Iterates over an array of Appointment structures using a do-while loop to see whether there is a match with the specified patientNumber and date variables. The function checks for a match using a flag and returns the index of the detected appointment in the array.
+
+2. The rationale for reducing the amount of scanf function calls in the client.c source code file is to decrease the possibility of input mistakes and increase overall code resilience. In C programming, scanf is a regularly used function for reading user input, however it can be mistake-prone owing to its lack of error handling and vulnerability to buffer overflow attacks. When scanf is used incorrectly, it can cause buffer overflows, which occur when the input data exceeds the allotted buffer size, leading in unpredictable behaviour and potential security risks. Also, reducing scanf calls can enhance code readability and maintainability. It enables greater separation of concerns by keeping input validation and parsing functionality distinct from the rest of the application code. This may make the code more understandable, debuggable, and maintainable, especially as the software expands in size and complexity. On the other hand, if want minimizing the number of scanf function calls that can use call other input function to get the input. For example, get user phone data in void inputPhoneData(struct Phone* phone) to call inputCString((*phone).number, 10, 10); to avoidance use scanf.
+
+3.void sort(struct Appointment appoints[], int max) This function was placed in a module responsible for handling sorting operations void viewAllAppointments(struct ClinicData* data); void viewAppointmentSchedule(struct ClinicData* data); This module be dedicated to sorting functions to sort the date and call by other display fucation to display sort date  output. Placing the sorting logic in a separate module allows for reusability and maintainability, as the sorting logic can be easily modified or replaced without affecting other parts of the system. 
+
+int slot(struct Appointment* appointment, int maxAppointments) This function was placed in a module responsible for handling check is it the assigning the values to the next available slot in function void addAppointment(struct Appointment* appointment, int maxAppointments, struct Patient* patient, int maxPatients). To find the index (position) where a new appointment can be added, the method slot() is called with the inputs appointment and maxAppointments. Following that, the date, time, and patientNumber values are allocated to the Appointment structure's appropriate fields at the chosen index (location).
+
+int check(int patientNumber, struct Date date, struct Appointment* appointment, int maxAppointments) This function was placed in a module responsible for handling checking for the availability of an appointment based on a given patientNumber and date, and then potentially removing the appointment if confirmed by the user. The location2 variable is used to store the result of the check() function, which likely determines the index of the appointment in the appointment array.
+
+
+
+
+
