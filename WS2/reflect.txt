@@ -1,0 +1,26 @@
+///////////////////////////////////////////////////////////////////////////
+                              Reflection
+                          Workshop - #2 (P2)
+Full Name  : WAI SUN LAM
+Student ID#: 146691225
+Email      : wslam4@myseneca.ca
+Section    : E
+
+Authenticity Declaration:
+
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. Becuase it does not round up.
+
+2. first one is Coercion (implicit)
+ second and third is Cast (explicit)
+
+3a. Int. It is becuase it set the cast in int.
+3b. int and flort.
+3c. It is interger but he want to display in flort it will have a conflict. 
+It is a Cast (implicit) it need use doulbe or flort in the beginning.
+It is because int will truncation so when want display in $%.2lf. 
+it have promotion automatically convert the operand of lower data type to higher data type.

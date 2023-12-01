@@ -1,0 +1,15 @@
+1.(daily_Servings >= 1 && daily_Servings <= 4)
+>=  1 and <=  4is relational logical expression
+&& is logical expressions
+(daily_Servings >= 5 && daily_Servings <= 9)
+>= 5 and <= 9 relational logical expression
+&& is logical expressions
+(daily_Servings >= 10)
+>=10 is relational logical expression
+
+2. printf("\n9. Based on product ID, product 3 is unique -> %d\n", product3_ID != product1_ID && product3_ID != product2_ID);
+!(product3_ID =  product1_ID && product3_ID = product2_ID)   
+I not used De Morgan's Laws
+
+3. When create a varibles you can set char coffee_Type1 and use scanf to input data 'l' and store in coffee_Type1. 
+On the other hand, the other ways to store data in varibles is char coffee_Type1 = 'l'.

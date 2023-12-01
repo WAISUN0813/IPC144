@@ -1,0 +1,13 @@
+1.People try to use variables and macros to represent information rather than hardcode “magic” numbers
+(constant literals) because they can improved readability. For example, variables and macros cam represent to some meaning literals that programer or other people can easily to understand it in the code. 
+If used magic number like "3" people dont understand waht number "3" is does it represent person, mins or hours.
+"Define LOG DAY = 3" it is a global variables people will know waht is mean in code. Second, it is flexibility for programer to easier to maintain and update the code.
+ It can be updated in one place without searching the code to find all hardcoded magic numbers like "Define MAX_YEAR = 2022" if we want to change to 2023 just make it "Define MAX_YEAR = 2023".
+Third, reusability. Instead of hardcoding values, use variables or macros to save time and effort while making changes by ensuring consistency. 
+You only need to change a constant's value once if you need to change it consistently across your code.
+
+
+2. It is becuase of separation of concerns and modularity. For example, each parts of code have it own duity and meaning. Validation routines are represent to check if the value is fit in between the range.
+Calculation logic is represent for summing and averaging. As a result, the code is simpler to understand and maintain since each section display a different role. In addition, modularity.
+The code is more modular since the calculating logic is separated from the validation routines, making it easier to reuse or modify without impacting other areas of the code. 
+Such as, programer may change the calculation logic without changing the validation routines that reduce the possibility of adding bug to code.

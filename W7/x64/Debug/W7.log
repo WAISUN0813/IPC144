@@ -1,0 +1,4 @@
+﻿  w7p2.c
+C:\Users\DracoSun\Desktop\IPC144\W7\w7p2.c(78,32): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  LINK : C:\Users\DracoSun\Desktop\IPC144\W7\x64\Debug\W7.exe not found or not built by the last incremental link; performing full link
+  W7.vcxproj -> C:\Users\DracoSun\Desktop\IPC144\W7\x64\Debug\W7.exe

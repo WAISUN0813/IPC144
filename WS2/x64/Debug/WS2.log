@@ -1,0 +1,22 @@
+﻿  w2p2.c
+C:\Users\DracoSun\Desktop\WS2\w2p2.c(71,44): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\DracoSun\Desktop\WS2\w2p2.c(74,44): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\DracoSun\Desktop\WS2\w2p2.c(77,44): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\DracoSun\Desktop\WS2\w2p2.c(80,44): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\DracoSun\Desktop\WS2\w2p2.c(83,44): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\DracoSun\Desktop\WS2\w2p2.c(86,44): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\DracoSun\Desktop\WS2\w2p2.c(89,36): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\DracoSun\Desktop\WS2\w2p2.c(92,36): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\DracoSun\Desktop\WS2\w2p2.c(111,25): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\DracoSun\Desktop\WS2\w2p2.c(116,40): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\DracoSun\Desktop\WS2\w2p2.c(121,40): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\DracoSun\Desktop\WS2\w2p2.c(126,40): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\DracoSun\Desktop\WS2\w2p2.c(131,40): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\DracoSun\Desktop\WS2\w2p2.c(136,40): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\DracoSun\Desktop\WS2\w2p2.c(151,27): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\DracoSun\Desktop\WS2\w2p2.c(156,42): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\DracoSun\Desktop\WS2\w2p2.c(161,28): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\DracoSun\Desktop\WS2\w2p2.c(166,42): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\DracoSun\Desktop\WS2\w2p2.c(171,42): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\DracoSun\Desktop\WS2\w2p2.c(176,42): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  WS2.vcxproj -> C:\Users\DracoSun\Desktop\WS2\x64\Debug\WS2.exe

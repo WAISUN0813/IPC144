@@ -1,0 +1,6 @@
+﻿  w6p2.c
+C:\Users\DracoSun\Desktop\IPC144\W6\w6p2.c(21,24): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+C:\Users\DracoSun\Desktop\IPC144\W6\w6p2.c(21,44): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+C:\Users\DracoSun\Desktop\IPC144\W6\w6p2.c(21,62): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+  LINK : C:\Users\DracoSun\Desktop\IPC144\W6\x64\Debug\W6.exe not found or not built by the last incremental link; performing full link
+  W6.vcxproj -> C:\Users\DracoSun\Desktop\IPC144\W6\x64\Debug\W6.exe
